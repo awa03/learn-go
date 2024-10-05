@@ -10,6 +10,7 @@ type argError struct {
   message string    // Error message
 }
 
+// allows error interface to be implemented
 func (e* argError) Error() string {
   return fmt.Sprintf("%d - %s", e.arg,e.message);
 }
