@@ -30,4 +30,5 @@ func main() {
 
   d := [...]int{100, 3: 400, 500}
   fmt.Println("idx", d)
+  //
 }
